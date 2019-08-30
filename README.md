@@ -9,4 +9,8 @@ To get back to Mojave from windows I use an interim installation of High Sierra 
 
 Without that you're looking at booting into the recovery partition in OSX and rebooting from there. 
 
-run 'bless-bootcamp-EFI.sh'
+
+## run 
+./bless-bootcamp-EFI.sh
+
+
