@@ -1,5 +1,13 @@
 # bless-bootcamp-EFI
 
+Check SIP is disabled
+
+`csrutil status`
+
+If it is enabled, reboot into recovery mode, open Terminal then run:
+
+`csrutil disable`
+
 Allows older macOS devices to locate and 'bless' Windows Bootcamp EFI partition. 
 I'm using a mid 2010 mac pro 5.1 with aftermarket GPU so no EFI boot screen available. 
 
